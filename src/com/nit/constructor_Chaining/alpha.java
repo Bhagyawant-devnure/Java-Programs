@@ -1,4 +1,4 @@
-package com.nit.constructor_Chaining;
+/*package com.nit.constructor_Chaining;
 
 class alpha
 {
@@ -21,5 +21,5 @@ class Base
     {
         System.out.println("Base");
     }
-}
+}*/
 
