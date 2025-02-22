@@ -26,6 +26,10 @@ public class QuestionOne {
 	   
 	  System.out.println("---------------------------");
 	  
+	  Integer arr3[]= {1,2,3,4,5,6,7};
+	  Arrays.stream(arr3).forEach(System.out::println);
+	  
+	  
 	}
 
 }
