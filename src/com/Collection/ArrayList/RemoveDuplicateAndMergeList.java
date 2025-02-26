@@ -28,7 +28,7 @@ public class RemoveDuplicateAndMergeList {
 		
 		List<Integer>mergedList=new ArrayList<>(list1);
 		for(Integer num :list2) {
-			if(list1==list2) {
+			if(!mergedList.contains(num)) {
 				mergedList.add(num);
 			}
 			
